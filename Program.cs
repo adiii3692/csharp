@@ -16,7 +16,14 @@ namespace Program{
         //     Console.WriteLine("Enter your name: ");
         //     string name = Console.ReadLine();
         //     Console.WriteLine("Hello, "+name);
-        // }
+
+            //Arrays
+            double[] tickets;
+            for(int i=0;i<tickets.length;i++){
+                tickets[i] = i * i;
+                Console.WriteLine(tickets[i]);
+            }
+         }
     }
 }
 
